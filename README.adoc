@@ -1,0 +1,44 @@
+= Kotlin MapDB Demo
+ifdef::env-github[:outfilesuffix: .adoc]
+
+image:https://travis-ci.org/McPringle/kotlin-mapdb-demo.svg?branch=master["Build Status", link="https://travis-ci.org/McPringle/kotlin-mapdb-demo"]
+image:https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg["gitmoji", link="https://gitmoji.carloscuesta.me"]
+
+*A very small demo application showing how to use https://github.com/jankotek/mapdb/[MapDB] with https://kotlinlang.org/[Kotlin]*
+
+== Build and Run
+
+To build this project, open a command line, go to the project directory and run:
+
+```
+./gradlew assemble
+```
+
+To run this project, open a command line, go to the project directory and run:
+
+```
+./gradlew run
+```
+
+NOTE: If you want to run this project, it is *not* necessary to build it beforehand. The build will be started automatically, if needed.
+
+On each run of the project a new `Person` object will be created and added to the `persons` map. The content of the `persons` map will be printed to the console. On each run you should see an increasing number of persons.
+
+== Copyright and Licensing
+
+Copyright (C) 2018 Marcus Fihlon
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+See the <<LICENSE#,LICENSE>> file for details.
