@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    compile(
+    implementation(
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
         "org.mapdb:mapdb:${mapdbVersion}"
     )
